@@ -1,0 +1,26 @@
+{
+  "name": "inrainbows",
+  "displayName": "InRainbows",
+  "description": "VS Code theme based on the colors from In Rainbows - Radiohead",
+  "version": "0.0.1",
+  "engines": {
+    "vscode": "^1.91.0"
+  },
+  "categories": [
+    "Themes"
+  ],
+  "contributes": {
+    "themes": [
+      {
+        "label": "In Rainbows Theme",
+        "uiTheme": "vs-dark",
+        "path": "./themes/In Rainbows Theme-color-theme.json"
+      },
+	  {
+        "label": "In Rainbows Theme Test",
+        "uiTheme": "vs-dark",
+        "path": "./themes/In Rainbows Theme Test-color-theme.json"
+      }
+    ]
+  }
+}

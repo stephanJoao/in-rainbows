@@ -1,0 +1,74 @@
+{
+    "name": "In Rainbows Theme Test",
+    "type": "dark",  
+    "colors": {
+        "editor.background": "#000000",
+        "editor.foreground": "#D4D4D4",
+        "editorCursor.foreground": "#A7A7A7",
+        "editor.lineHighlightBackground": "#323232",
+        "editor.selectionBackground": "#264F78"
+    },
+    "tokenColors": [
+        {
+            "scope": ["comment"],
+            "settings": {
+                "foreground": "#4BB848",
+                "fontStyle": "italic"
+            }
+        },
+        {
+            "scope": ["string"],
+            "settings": {
+                "foreground": "#EC9676"
+            }
+        },
+        {
+            "scope": ["keyword"],
+            "settings": {
+                "foreground": "#569CD6"
+            }
+        },
+        {
+            "scope": ["variable"],
+            "settings": {
+                "foreground": "#AADFEB"
+            }
+        },
+        {
+            "scope": ["constant"],
+            "settings": {
+                "foreground": "#4FC1FF"
+            }
+        },
+        {
+            "scope": ["support.function"],
+            "settings": {
+                "foreground": "#FDF14D"
+            }
+        },
+        {
+            "scope": ["entity.name.function"],
+            "settings": {
+                "foreground": "#FDF14D"
+            }
+        },
+        {
+            "scope": ["storage.type"],
+            "settings": {
+                "foreground": "#C586C0"
+            }
+        },
+        {
+            "scope": ["storage.modifier"],
+            "settings": {
+                "foreground": "#569CD6"
+            }
+        },
+        {
+            "scope": ["punctuation.definition.variable"],
+            "settings": {
+                "foreground": "#9CDCFE"
+            }
+        }
+    ]
+}
